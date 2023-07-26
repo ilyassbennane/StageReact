@@ -21,7 +21,7 @@ function App() {
         <Search />
 
           <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Task_List" element={<TaskList />} />
             <Route path="/Notifications" element={<Notifications />} />

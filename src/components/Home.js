@@ -32,7 +32,9 @@ const data = {
 };
 
 function Home() {
-  return ( <div className='Middle'><Pie data={data} /></div>);
+  return ( <div className='Middle'>  <div className='PieChartWrapper'>
+  <Pie data={data} />
+</div></div>);
 }
 
 export default Home;

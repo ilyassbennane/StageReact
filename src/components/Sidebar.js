@@ -12,7 +12,7 @@ const Data = [
   {
     title: "Home",
     icon: <HomeIcon />,
-    link: "/Home"
+    link: "/"
   },   
   {
     title: "Projects",
@@ -51,7 +51,7 @@ function Sidebar() {
   return (
     <div className='Sidebar'>
       <div>
-        <Link to="/Home"><img className='SidebarImage' src={SidebarImage} alt="Sidebar" /></Link>
+        <Link to="/"><img className='SidebarImage' src={SidebarImage} alt="Sidebar" /></Link>
       </div>
       <div className='List'>
         {Data.map((val, index) => (
